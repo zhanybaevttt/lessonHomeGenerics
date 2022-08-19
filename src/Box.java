@@ -23,9 +23,9 @@ public class Box <T ,S> {
         this.name = name;
     }
 
-    public static <T ,S>void generic(T t, S s) {
-    System.out.println(t);
-        System.out.println(s);
+    public static <T>T generic(T t) {
+
+           return t;
 }
 
     @Override
